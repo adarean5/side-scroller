@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from "vue-router";
+import { createRouter, createWebHashHistory } from "vue-router";
 import HelloWorld from "./components/HelloWorld.vue";
 
 const routes = [
@@ -12,6 +12,6 @@ const routes = [
 ];
 
 export const router = createRouter({
+    history: createWebHashHistory(),
     routes,
-    history: createWebHistory(),
 });
