@@ -12,5 +12,5 @@ module.exports = {
     env: {
         "jest/globals": true,
     },
-    ignorePatterns: [".eslintrc.js", "src/shims-vue.d.ts", "node_modules/", "vue.config.js"],
+    ignorePatterns: [".eslintrc.js", "src/shims-vue.d.ts", "node_modules/"],
 };
